@@ -3,19 +3,27 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Conecta com o google fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Importa a fonte do Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
   <title>Extrato</title>
+  <!-- Importa o CSS  -->
   <link rel="stylesheet" href="extrato.css">
 </head>
 <body>
   <div class="container">
+    <!-- exibir o extrato -->
     <div id="extratoContainer"></div>
   </div>
-
-
-
+  <div class="botao">
+    <!-- Botão para cancelar a operação -->
+    <button type="button" class="cancelar" onclick="cancelarOperacao()">
+      Cancelar
+    </button>
+  </div>
+  <!-- Importan o JavaScript -->
   <script src="extrato.js"></script>
 </body>
 </html>
